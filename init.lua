@@ -5,3 +5,9 @@
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
+
+vim.opt.scrolloff = 8
+vim.opt.softtabstop = 0
+vim.opt.list = true
+vim.opt.listchars = "tab:>-,trail:.,eol:↴,extends:>,precedes:<,nbsp:%"
+vim.opt.autoindent = true

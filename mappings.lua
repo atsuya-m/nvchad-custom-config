@@ -20,6 +20,16 @@ M.general = {
   },
 }
 
+M.GIHTUB = {
+  n = {
+    ["<Leader>gr"] = { ":OpenInGHRepo<CR>", "Open In Github Repository", opts = { nowait = true } },
+    ["<Leader>gf"] = { ":OpenInGHFile<CR>", "Open In Github File", opts = { nowait = true } },
+  },
+  v = {
+    ["<Leader>gl"] = { ":OpenInGHFileLines<CR>", "Open In Github File Lines", opts = { nowait = true } },
+  },
+}
+
 M.MOTION = {
   i = {
     ["<C-a>"] = { "<Home>", "Beginning of line" },
